@@ -26,6 +26,6 @@ db();
 app.use('/',allrouter);
 
 console.log(process.env.PORT);
-app.listen(process.env.PORT, () => {
+app.listen(3002, () => {
   console.log(`Server is running on PORT ${process.env.PORT}`)
 });
